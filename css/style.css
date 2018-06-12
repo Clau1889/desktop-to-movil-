@@ -15,15 +15,17 @@
     background-color: rgb(245, 221, 10);
 }
 
-.row-B{
+.row-BCD{
+    background-color: palevioletred;
     height: 5rem;
 }
 
-.row-CDE{
+.row-EFG{
     height: 5rem;
 }
 
-div.row-mainF{
+div.row-mainH{
+    background-color: plum;
      height: 10rem;
 }
 
