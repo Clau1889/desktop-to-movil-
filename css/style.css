@@ -32,32 +32,34 @@ div.row-mainH{
 
 @media screen and (max-width:450px){
     .col-12{
-        background-color: palevioletred;
-        width: 100%;
-    }
-    section.row div.col-8 {
+        background-color: rgb(245, 221, 10);
+        padding: 1em;
         width: 100%;
     }
     
-    .row-A{
-        height: 15vh;
-    }
-
-    .row-B{
-        height: 25vh;
-    }
-
-    .row-CDE{
-        background-color: salmon;
-        border: 6px solid white;
-        width: 33%;
-    }
-
-    .row-mainF{
-        background-color: skyblue;
-        height: 15vh;
-        padding: 2.5rem;
+    .col-8{
+        background-color: palevioletred;
+        height: auto;
         width: 100%;
     }
+
+    .row-BCD{
+        border-bottom: 5px solid white;
+        border-left: 5px solid white;
+        border-right: 5px solid white
+    }
+    
+    .row-EFG{
+        border-bottom: 5px solid white;
+        border-left: 5px solid white;
+        border-right: 5px solid white;
+    }
+    
+    div.row-mainH{
+        background-color: plum;
+        padding: 1.5em;
+        width: 100%;
+    }
+    
 
 }
