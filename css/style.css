@@ -1,6 +1,6 @@
 
 [class*="col-"]{
-    border: 1px solid white;
+    border: 3px solid white;
     /*gutters*/
 }
 
@@ -28,3 +28,34 @@ div.row-mainF{
 }
 
 
+@media screen and (max-width:450px){
+    .col-12{
+        background-color: palevioletred;
+        width: 100%;
+    }
+    section.row div.col-8 {
+        width: 100%;
+    }
+    
+    .row-A{
+        height: 15vh;
+    }
+
+    .row-B{
+        height: 25vh;
+    }
+
+    .row-CDE{
+        background-color: salmon;
+        border: 6px solid white;
+        width: 33%;
+    }
+
+    .row-mainF{
+        background-color: skyblue;
+        height: 15vh;
+        padding: 2.5rem;
+        width: 100%;
+    }
+
+}
