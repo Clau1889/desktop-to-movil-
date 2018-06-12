@@ -3,16 +3,37 @@
     <meta charset="UTF-8">
     <!-- ventana de visualizacion ajustada al ancho del dispositivo al 100% -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Desktop to mobile</title>  
 </head>
 <body>
-    <div class="container">
-        <div class="col-12 main">A</div>
+    <main class="container">
+        <!--Fila superior-->
+        <section class="row">
+            <div class="col-12 main">A</div>
+        </section>
 
-        <div class="col-8 main">B</div>
+        <!--Fila inferior-->
+        <section class="row">
+            <!--Columna de 8 principal-->
+            <div class="col-8 main">
+                <!--Fila 1 dentro de 8-->
+                <section class="row">
+                    <div class="col-12 main row-B" >B</div>
+                </section>
 
-        <div class="col-4 main">C</div>
-    </div>
+                <!--Fila 2 dentro de 8-->
+                <section class="row">
+                    <div class="col-4 row-CDE" >C</div>
+                    <div class="col-4 row-CDE" >D</div>
+                    <div class="col-4 row-CDE">E</div>
+                </section>
+            </div>
+
+            <!--Columna de 4 principal-->
+            <div class="col-4 row-mainF" >F</div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,30 @@
+
+[class*="col-"]{
+    border: 1px solid white;
+    /*gutters*/
+}
+
+.col-3{
+    background-color: #da70d6;
+}
+.col-4{
+    background-color: skyblue;
+}
+
+.col-12{
+    background-color: rgb(245, 221, 10);
+}
+
+.row-B{
+    height: 5rem;
+}
+
+.row-CDE{
+    height: 5rem;
+}
+
+div.row-mainF{
+     height: 10rem;
+}
+
+
